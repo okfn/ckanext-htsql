@@ -7,7 +7,7 @@ setup(
     version=version,
     description="Enables HTSQL queries in the new datastore in CKAN.",
     long_description="""\
-    The new datastore offers a way to store data directly in CKAN. This plugin
+    The new datastore offers a way to store data directly in CKAN. This extension
     adds an API endpoint ``datastore_search_htsql`` that allows HTSQL queries
     on the datastore. Because of restrictions with the sql endpoint, not all
     HTSQL queries are possible.
