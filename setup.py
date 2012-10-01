@@ -24,6 +24,6 @@ setup(
     entry_points=\
     """
     [ckan.plugins]
-    htsql=ckanext.htsql:PluginClass
+    htsql=ckanext.htsql.plugin:DatastoreHTSQLPlugin
     """,
 )
