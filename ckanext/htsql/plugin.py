@@ -1,6 +1,6 @@
 import logging
 import ckan.plugins as p
-import ckanext.datastore_htsql.logic.action as action
+import ckanext.htsql.logic.action as action
 import ckan.logic as logic
 
 log = logging.getLogger(__name__)
