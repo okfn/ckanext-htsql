@@ -28,7 +28,7 @@ def datastore_search_htsql(context, data_dict):
     query = str(query)
     print query
 
-    uri = pylons.config['ckan.datastore_read_url']
+    uri = pylons.config['ckan.datastore.read_url']
     engine = db._get_engine(None, {'connection_url': uri})
 
     htsql = HTSQL(None, {'tweak.sqlalchemy': {'engine': engine}, 'tweak.timeout': {'timeout': 1000}})
