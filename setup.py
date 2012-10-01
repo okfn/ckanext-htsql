@@ -7,10 +7,10 @@ setup(
     version=version,
     description="Enables HTSQL queries in the new datastore in CKAN.",
     long_description="""\
-    The new datastore offers a way to store data directly in CKAN.
-    This plugin adds an API enpoint 'datastore_search_htsql' that allows htsql
-    on the datastore. Because of restrictions with the sql endpoint, not all htsql queries
-    are possible.
+    The new datastore offers a way to store data directly in CKAN. This plugin
+    adds an API endpoint ``datastore_search_htsql`` that allows HTSQL queries
+    on the datastore. Because of restrictions with the sql endpoint, not all
+    HTSQL queries are possible.
     """,
     classifiers=[],  # Get strings from http://pypi.python.org/pypi?%3Aaction=list_classifiers
     keywords='ckan, datastore, htsql',
